@@ -1,3 +1,5 @@
+import style from "./random.module.css"
+
 export function Random (props){
     // let min = props.min
     // let max = props.max
@@ -10,7 +12,7 @@ export function Random (props){
     
 
     return (
-        <div>{result}</div>
+        <div className={style.random}>Random value between {props.min} and {props.max} => {result}</div>
     )
         
              

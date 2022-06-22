@@ -1,0 +1,38 @@
+.cc {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: grey;
+    margin-bottom: 5px;
+    height: 150px;
+    padding: 12px;
+}
+
+.visa {
+    display: flex;
+    justify-content: right;
+    /* align-items: right; */
+    /* padding: 18px; */
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.expire {
+    display: flex;
+    flex-direction: row;
+    justify-content: bottom;
+    align-items: flex-end;
+}
+
+.bankname {    
+    margin-left: 18px;
+}
+
+.owner {
+    align-items: flex-end;
+    justify-content: flex-end;
+}

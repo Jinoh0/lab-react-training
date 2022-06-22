@@ -1,0 +1,25 @@
+.drivercard {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 10px;
+    background-color: rgb(80, 80, 219);
+    color: white;
+    margin-bottom: 6px;
+    border-radius: 4%;
+    justify-content: center;
+    /* width: 800px; */
+}
+
+.foto {
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
